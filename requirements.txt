@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy
+scikit-learn>=1.3
+imbalanced-learn
+matplotlib
+seaborn
+lime
+statsmodels
+tabulate
+jupyter
