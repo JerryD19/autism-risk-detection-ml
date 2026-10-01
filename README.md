@@ -120,7 +120,7 @@ LIME explanation for one high-risk prediction (SVM):
 - **Audit features for proxies of the label.** Administrative columns like `group` can encode the outcome directly.
 - **Pick metrics that match the problem.** At 6.6% prevalence, a model that always says "low risk" is 93% accurate. PR AUC and recall at a chosen threshold are far more informative.
 
-This audit also led to my current research interest: how data handling choices such as oversampling, label noise and **data poisoning** can silently distort what a model learns.
+This audit also led to my current research interest: how data handling choices such as oversampling, label noise and **data poisoning** can silently distort what a model learns. The follow-up study is in [smote-data-poisoning](https://github.com/JerryD19/smote-data-poisoning).
 
 ---
 
