@@ -7,6 +7,8 @@ A machine learning pipeline that classifies autism spectrum disorder (ASD) risk 
 
 This repo tells the full story. The dissertation reported **99.2% accuracy**. When I re-audited the code, I found that two evaluation mistakes produced most of that score. I measured each one and re-ran the comparison properly. The corrected models reach a **ROC AUC of about 0.75**: genuine but modest signal, and a much more honest basis for a screening tool.
 
+**Business impact:** this is the quality-assurance step that stops an overstated model from reaching decision-makers. The audit replaced a 99.2% accuracy headline with an honest ROC AUC of about 0.75 before anyone relied on it.
+
 **Tools:** Python · pandas · scikit-learn · imbalanced-learn (SMOTE, pipelines) · LIME · Matplotlib · Seaborn · Jupyter
 
 ---
@@ -141,3 +143,7 @@ This audit also led to my current research interest: how data handling choices s
 ## Citation
 
 Dibie, J. C. (2024). *Detection of Autism in Toddlers Using Machine Learning*. MSc dissertation, University of Derby.
+
+---
+
+More of my work: [github.com/JerryD19](https://github.com/JerryD19)
